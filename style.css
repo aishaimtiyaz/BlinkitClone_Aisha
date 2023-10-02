@@ -1,4 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* <!--Dairy,Breads & Eggs--> */
+ .productCart{
+    border:2px solid black;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    border: none;
+  }
+  .foot-card-bottom>p{
+   
+    color: #948f8f;
+  
+   
+  }
+   .price>button{
+    border-radius: 5px;
+  
+   
+    
+   }
+   .scrool-section{
+    width: 80%;
+    margin: auto;
+    white-space: no-wrap;
+    overflow-x: scroll;
+    overflow-y: scroll;
+   }
+   .scrool-section>.productCart{
+    margin: 20px;
+    padding: 0px 10px 20px 10px;
+    
+    
+   }
+   .scrool-section {
+     /* margin-right:60%; */
+     width:97vw !important;
+ 
+   }
+   .footer-Quotes{
+    margin-top: 50px;
+    font-size: 1.5rem;
+   
+   }
+   .foot-card-bottom>h5{
+    font-size: 15px;
+   }
 nav{
     position: sticky;
     top: 0px;
@@ -44,12 +94,15 @@ width: 95vw;
 margin: auto;
 
 }
+.list::-webkit-scrollbar{
+    display: none;
+}
 .list{
 white-space: nowrap;
 overflow-x: scroll;
 
 }
-.list::-webkit-scrollbar{
+.scrool-section::-webkit-scrollbar{
     display: none;
 }
 .list>img{
