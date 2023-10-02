@@ -41,14 +41,15 @@ nav{
 .scroll-container{
 width: 85vw;
 margin: auto;
+::-webkit-scrollbar{
+    display: none;
+}
 }
 .list{
 white-space: nowrap;
 overflow-x: scroll;
 }
-::-webkit-scrollbar{
-    display: none;
-}
+
 .list>img{
     display: inline-block;
     margin: 10px;
